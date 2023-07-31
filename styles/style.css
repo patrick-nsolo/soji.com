@@ -176,7 +176,7 @@ footer{
         margin-left: 10px;
     }
     .what-we-do{
-        margin-top: 200px;
+        display: none;
     }
     #services{
         display: inline-block;
