@@ -96,3 +96,25 @@ footer{
     text-decoration: none;
     color: var(--white);
 }
+
+
+/*ABOUT PAGE*/
+.about-body{
+    overflow: visible;
+}
+.soji img{
+    height:400px;
+    position: relative;
+    left:25%;
+    margin-top: 50px;
+}
+.about-text{
+    position:absolute ;
+    z-index: 1;
+    top: 40%;
+    left: 50%;
+    max-width: calc(100% - 20px);
+    background-color: var(--red);
+    width:400px;
+    padding: 50px;
+}
