@@ -116,7 +116,7 @@ footer{
     max-width: calc(100% - 20px);
     background-color: var(--red);
     padding: 50px;
-    width:500px;
+    width:600px;
 }
 .what-we-do{
     margin-top:100px;
@@ -166,5 +166,22 @@ footer{
     #readmore{
         padding: 0;
         text-align: center;
+    }
+    .soji img{
+        left:0;
+    }
+    .about-text{
+        left: 0;
+        top:55%;
+        margin-left: 10px;
+    }
+    .what-we-do{
+        display: block;
+    }
+    #services{
+        display: inline-block;
+    }
+    .service-images{
+        margin-top: 50px;
     }
 }
