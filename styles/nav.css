@@ -84,10 +84,10 @@
     .menu{
         position: fixed;
         left:-100%;
-        top:105px;
+        top:50px;
         gap:0;
         flex-direction: column;
-        background-color: var(--medicalblue);
+        background-color: var(--red);
         width: 100%;
         text-align:center;
         transition: 0.5s;
