@@ -160,3 +160,11 @@ footer{
 .service-footer{
     margin-top: 80px;
 }
+
+/*MEDIA FOR ALL PAGES*/
+@media(max-width:760px){
+    #readmore{
+        padding: 0;
+        text-align: center;
+    }
+}
