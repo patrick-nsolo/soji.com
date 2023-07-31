@@ -194,13 +194,14 @@ textarea{
     #readmore{
         padding: 0;
         text-align: center;
+        margin-top:200px;
     }
     .soji img{
         left:0;
     }
     .about-text{
         left: 0;
-        top:55%;
+        top:90%;
         margin-left: 10px;
     }
     .what-we-do{
@@ -211,5 +212,13 @@ textarea{
     }
     .service-images{
         margin-top: 50px;
+    }
+    input,.mail-input, textarea{
+        width:300px;
+    }
+    .contact-form{
+        height:500px;
+
+
     }
 }
