@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 .container{
-    width:98%;
+    width:90%;
     margin: 0 auto;
 }
 .navbar{
@@ -23,6 +23,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     color:var(--white);
+    font-weight: bolder;
 }
 .menu{
     display:flex;
