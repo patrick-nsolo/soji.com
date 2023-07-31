@@ -13,6 +13,10 @@
     width:90%;
     margin: 0 auto;
 }
+.about-nav{
+    background: var(--black);
+    width:100%;
+}
 .navbar{
     min-height: 70px;
     display: flex;
