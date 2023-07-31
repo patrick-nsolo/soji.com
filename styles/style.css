@@ -38,6 +38,17 @@ body{
     background-size: cover;
 }
 #readmore{
-    text-align: center;
-    color:var(--white)
+    text-align: left;
+    color:var(--white);
+    margin-top: 200px;
+    padding:50px 50px;
+    
+}
+#readmore h1{
+    color: var(--white);
+    font-size:2rem;
+    font-weight: bolder;
+}
+#readmore p{
+    overflow-wrap: break-word;
 }
