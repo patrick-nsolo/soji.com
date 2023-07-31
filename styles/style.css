@@ -105,16 +105,58 @@ footer{
 .soji img{
     height:400px;
     position: relative;
-    left:25%;
+    left:20%;
     margin-top: 50px;
 }
 .about-text{
     position:absolute ;
     z-index: 1;
     top: 40%;
-    left: 50%;
+    left: 46%;
     max-width: calc(100% - 20px);
     background-color: var(--red);
-    width:400px;
     padding: 50px;
+    width:500px;
+}
+.what-we-do{
+    margin-top:100px;
+    text-align: center;
+    padding:50px;
+    font-weight: bold;
+    font-style: italic;
+}
+.about-footer{
+    margin-top: 0;
+}
+.about-attribute,.about-attribute p a{
+    color:var(--black);
+}
+
+/*SERVICE PAGE*/
+#services{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 50px;
+}
+.service{
+    margin-top: 50px;
+}
+.service h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.service-images img{
+    height:300px;
+    width:400px;
+}
+.service-images p{
+    background-color: var(--red);
+    padding:20px;
+    margin-top: -5px;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.service-footer{
+    margin-top: 80px;
 }
