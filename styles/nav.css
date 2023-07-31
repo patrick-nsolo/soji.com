@@ -3,9 +3,6 @@
 /*header{
     overflow: hidden;
 }*/
-.logo{
-    height:100px;
-}
 .nav-item{
     list-style:none;
 }
@@ -22,8 +19,10 @@
     justify-content: space-between;
     align-items: center;
 }
-.navbar a{
+.logo-name {
     text-decoration: none;
+    font-size: 1.3rem;
+    color:var(--white);
 }
 .menu{
     display:flex;
@@ -40,13 +39,13 @@
 }
 .nav-item .button{
     padding: 10px 20px;
-    background-color: var(--medicalblue);
+    background-color: transparent;
     text-decoration: none;
     border: 0;
-    color:var(--white);
+    color:var(--red);
 }
 .nav-item .button:hover{
-    background-color: var(--blue);
+    background-color: var(--red);
     color: var(--white);
 }
 .hamburger{
